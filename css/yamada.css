@@ -1,0 +1,138 @@
+@charset "UTF-8";
+.top {
+  background-image: url("../img/破線.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* 背景として */
+  width: 100vw;
+  height:100%;
+  background-size: 100% auto;
+}
+.top-wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.__inner{
+  max-width:1000px;
+  margin:0 auto;
+}
+.top-wrap__img {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  margin: 0 auto;
+  padding-top:100px;
+  position: relative;
+}
+.top-wrap__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.top-wrap__img__txt {
+  position: absolute;
+  top: 70%;
+  left: 3%;
+  font-size:24px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding:30px 180px 30px 30px;
+  line-height: 2;
+  font-weight: 700;
+}
+.top-wrap__img__txt p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.custom-hr {
+  border: none;
+  height: 1px;
+  background: #000; /* 好きな色に */
+  margin: 80px auto;       /* 上下の余白 */
+  width: 100%;          /* 幅いっぱい。必要に応じて調整 */
+}
+.about-wrap__body__section__head {
+  font-size: 24px;
+  color:#DE605C;
+  padding-bottom:40px;
+  max-width:800px;
+}
+.about-wrap__body__section__txt {
+  font-size: 16px;
+  line-height: 1.5;
+  color:#000;
+  padding-bottom:20px;
+  max-width:800px;
+  letter-spacing: 0.1em;
+}
+.about-wrap {
+  position: relative;
+  background-color: #fff;
+}
+.about-wrap__title {
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  top: 20px;
+  right: -80px;
+  font-size: 200px;
+  font-weight: 500;
+  writing-mode: vertical-rl;
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  background: linear-gradient(to left,#de5f5c, #d99354);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1.5rem;
+  opacity: 0.8;
+}
+.section-title,
+.section-text {
+  position: relative;
+  z-index: 1;
+}
+.about-wrap__body__section__img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin: 0 auto;
+  padding: 40px 0 40px 0 ;
+  position: relative;
+}
+.about-wrap__body__section__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about-wrap__body__section__profile {
+  background-color: #F8F8F8;
+  padding: 40px;
+  margin: 40px auto;
+}
+.about-wrap__body__section__profile__name {
+  padding-bottom:20px;
+}
+.about-wrap__body__section__profile__name h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.about-wrap__body__section__profile__com {
+  padding-bottom:20px;
+}
+.about-wrap__body__section__profile__com h5 {
+    font-size: 20px;
+  font-weight: 500;
+}
+.about-wrap__body__section__profile__txt p {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom:20px;
+}
+.footer-wrap {
+  margin-top: 200px;
+  margin-bottom: 80px;
+  text-align: center;
+}

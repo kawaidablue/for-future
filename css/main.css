@@ -126,6 +126,7 @@ li {
   object-fit: cover;
   margin: 0 auto;
   margin-bottom: 20px;
+  text-align:center;
 }
 .footer-wrap__imghousou img {
   width: 100%;

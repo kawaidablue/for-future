@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else if (height > 600) {
       yPos = "80%"; // やや上寄せ
     } else {
-      yPos = "80%"; // 高さが小さいときは上寄せ
+      yPos = "40%"; // 高さが小さいときは上寄せ
     }
 
     topElement.style.setProperty("--bg-pos", yPos);

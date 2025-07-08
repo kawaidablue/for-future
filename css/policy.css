@@ -22,6 +22,9 @@
   padding-bottom: 120px;
   height: 100%;
 }
+.footer-wrap {
+  text-align: center;
+}
 @media screen and (max-width: 1000px) {
   .policy-wrap__txt {
     width: 90%;

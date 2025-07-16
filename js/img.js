@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const imageList = [
-    "/Users/kubomasana/Desktop/forHP/img/kyouwa/kyouwatop.jpg",
+    "img/kyouwa/kyouwatop.jpg",
     "img/kensetsu.jpeg",
     "img/tudumi/tudumitop.jpg",
-    "/Users/kubomasana/Desktop/forHP/img/NK/NKtop.jpg",
+    "img/NK/NKtop.jpg",
     "img/pre2.jpeg",
     "img/pre3.jpeg",
     "img/nishitetsu/top.jpg",

@@ -120,4 +120,10 @@ button.contact-btn {
   width:40%;
 
 } 
+@media screen and (max-width:430px){
+  button.contact-btn {
+  width:100%;
+
+} 
 }
+

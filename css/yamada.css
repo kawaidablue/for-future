@@ -169,9 +169,10 @@
   left: 3%;
   font-size:22px;
   background-color: rgba(255, 255, 255, 0.7);
-  padding:20px 120px 20px 20px;
+  padding:20px 0 20px 20px;
   line-height: 2;
   font-weight: 700;
+  width:310px;
 }
 .custom-hr {
   border: none;
@@ -214,8 +215,9 @@
   top: 70%;
   left: 3%;
   font-size:20px;
+  width:310px;
   background-color: rgba(255, 255, 255, 0.7);
-  padding:15px 120px 15px 15px;
+  padding:15px 0 15px 15px;
   line-height: 2;
   font-weight: 700;
 }
@@ -308,9 +310,10 @@ padding-bottom:20px;
   left: 3%;
   font-size:20px;
   background-color: rgba(255, 255, 255, 0.7);
-  padding:10px 90px 10px 10px;
+  padding:10px 0 10px 10px;
   line-height: 2;
   font-weight: 700;
+  width:220px;
 }
 .about-wrap__body__section__profile__com h5 {
     font-size: 16px;

@@ -624,9 +624,9 @@
   justify-self: end;
   align-self: center;
 }
-.top::before {
+/*.top::before {
   background-position: 40% 40%;
-}
+}*/
 .about-wrap__body__head {
   font-size:clamp(1.25rem, 1.0722rem + 0.8889vw, 1.5rem);
   margin-bottom:15px;
@@ -657,12 +657,11 @@
   }
 }
 @media screen and (max-width: 700px){
-  .top::before {
+  /*.top::before {
   background-position: 40% 40%;
     -webkit-mask-size: 100% 100%;
     mask-size: 100% 100%; 
-
-  }
+  }*/
   .top-wrap {
     grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 90px);
@@ -882,9 +881,9 @@
   .top{
     height: 90vh;
   }
-  .top::before {
+  /*.top::before {
   background-position: 30% 30%;
-}
+}*/
 .top-wrap__img1 {
   width:100px;
   height:100px;
@@ -905,11 +904,11 @@
   .scroll-indicator {
     display:none;
   }
-    .top::before {
-         background-size: 150vw auto;  /* 横に長くしてはみ出してもOK */
+    /*.top::before {
+         background-size: 150vw auto;  
     background-position: center center;
     transform: rotate(-10deg);
-}
+}*/
   .top{
     height: 100vh;
   }

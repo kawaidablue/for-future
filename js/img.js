@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
   const imageList = [
-    "img/it.jpeg",
+    "/Users/kubomasana/Desktop/forHP/img/kyouwa/kyouwatop.jpg",
     "img/kensetsu.jpeg",
-    "img/hair.jpeg",
-    "img/pre1.jpeg",
+    "img/tudumi/tudumitop.jpg",
+    "/Users/kubomasana/Desktop/forHP/img/NK/NKtop.jpg",
     "img/pre2.jpeg",
     "img/pre3.jpeg",
     "img/nishitetsu/top.jpg",
@@ -26,29 +26,24 @@ document.addEventListener("DOMContentLoaded", () => {
     img.src = shuffledImages[i];
   });
 });
-document.addEventListener("DOMContentLoaded", () => {
-  const topElement = document.querySelector(".top");
+function adjustBgPos() {
+  const h = window.innerHeight;
+  const topEl = document.querySelector(".top");
+  if (!topEl) return;
 
-  const setBgPosition = () => {
-    const height = window.innerHeight;
-    let yPos;
+  // 高さによって切り替え
+  if (h < 600) {
+    topEl.style.setProperty("--bg-pos", "60%");
+  } else if (h < 670) {
+    topEl.style.setProperty("--bg-pos", "50%");
+  }
+  else if (h < 800) {
+    topEl.style.setProperty("--bg-pos", "45%");
+  } else {
+    topEl.style.setProperty("--bg-pos", "40%");
+  }
+}
 
-    if (height > 1000) {
-      yPos = "30%"; // 高い画面では中央近く
-    } else if (height > 900) {
-      yPos = "70%"; // 中くらいの画面
-    } else if (height > 600) {
-      yPos = "80%"; // やや上寄せ
-    } else {
-      yPos = "40%"; // 高さが小さいときは上寄せ
-    }
-
-    topElement.style.setProperty("--bg-pos", yPos);
-  };
-
-  // 初期設定
-  setBgPosition();
-
-  // リサイズ時にも反映（オプション）
-  window.addEventListener("resize", setBgPosition);
-});
+// 初期ロードとリサイズ時に実行
+window.addEventListener("load", adjustBgPos);
+window.addEventListener("resize", adjustBgPos);

@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "img/pre1.jpeg",
     "img/pre2.jpeg",
     "img/pre3.jpeg",
-    "img/doc.jpeg",
-    "img/con.jpg",
+    "img/nishitetsu/top.jpg",
+    "img/kamiyama/top.jpg",
   ];
 
   // ランダム表示対象のimg要素たち

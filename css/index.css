@@ -350,7 +350,7 @@
   cursor: pointer;
   border-radius: 3px;
   transition: 0.3s;
-  height: 300px;
+  height: 310px;
   position: relative;
   background-color: #272727;
 }
@@ -411,6 +411,7 @@
 }
 .article-wrap__body__card__job {
   font-size: 14px;
+  line-height: 1.2;
 }
 .article-wrap__body__card:hover {
   transform: scale(1.1);
@@ -527,7 +528,7 @@
   overflow: hidden; /* ← これを追加 */ 
 }
 .top::before {
-  background-position: center var(--bg-pos, 30%);
+  background-position: center var(--bg-pos, 40%);
 }
 .__inner {
   max-width: 800px;

@@ -185,15 +185,20 @@
   }
   .top-wrap__img__txt {
     position: absolute;
-    top: 65%;
+    top: 78%;
     left: 3%;
     font-size: 22px;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px 0 20px 20px;
+    padding: 1% 1.5%;
     line-height: 2;
     font-weight: 700;
-    width: 310px;
   }
+  .top-wrap__img__txt h3 {
+  position: relative;
+  padding-right: 30px;
+  display: inline-block;
+  font-size: 32px;
+}
   .custom-hr {
     border: none;
     height: 1px;
@@ -232,12 +237,10 @@
   }
   .top-wrap__img__txt {
     position: absolute;
-    top: 70%;
+    top: 78%;
     left: 3%;
-    font-size: 20px;
-    width: 310px;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 15px 0 15px 15px;
+    padding: 1% 1.5%;
     line-height: 2;
     font-weight: 700;
   }
@@ -311,8 +314,28 @@
     padding-top: 0;
     padding-bottom: 20px;
   }
+   .top-wrap__img__txt {
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1% 1.5%;
+    line-height: 2;
+    font-weight: 700;
+  }
+    .top-wrap__img__txt h3 {
+  position: relative;
+  padding-right: 30px;
+  display: inline-block;
+  font-size: 24px;
+}
+    .top-wrap__img__txt p {
+    font-size: 14px;
 }
 @media screen and (max-width: 430px) {
+  .top-title{
+    margin: 25px 0;
+  }
   .top-title h3 {
     font-size: 19px;
   }
@@ -326,14 +349,12 @@
   }
   .top-wrap__img__txt {
     position: absolute;
-    top: 69%;
+    top:80%;
     left: 3%;
-    font-size: 20px;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 10px 0 10px 10px;
+    padding: 1% 1.5%;
     line-height: 2;
     font-weight: 700;
-    width: 220px;
   }
   .about-wrap__body__section__profile__com h5 {
     font-size: 16px;
@@ -351,11 +372,59 @@
   }
   .top-wrap__img__txt h3 {
     font-size: 18px;
+    padding-right:15px;
+    font-weight: 600;
   }
   .top-wrap__img__txt p {
-    font-size: 14px;
+    font-size: 12px;
+    padding-left:15px;
+    font-weight:300;
   }
   .about-wrap__body__section__profile {
     padding: 20px;
   }
+  .top-wrap__img__txt h3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 2px; /* 線の太さ */
+  height: 30px; /* 線の長さ */
+  background-color: #de605c; /* 線の色 */
+  transform: translateY(-50%) rotate(40deg);
+}
+}
+@media screen and (max-width: 350px) {
+  .top-title h3 {
+    font-size: 18px;
+  }
+  .top-wrap__img__txt {
+    position: absolute;
+    top:80%;
+    left: 1%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1% 1.5%;
+    line-height: 2;
+    font-weight: 700;
+  }
+   .top-wrap__img__txt h3 {
+    font-size: 16px;
+    padding-right:10px;
+    font-weight: 600;
+  }
+  .top-wrap__img__txt p {
+    font-size: 12px;
+    padding-left:10px;
+    font-weight:300;
+  }
+    .top-wrap__img__txt h3::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 2px; /* 線の太さ */
+  height: 25px; /* 線の長さ */
+  background-color: #de605c; /* 線の色 */
+  transform: translateY(-50%) rotate(30deg);
+}
 }
